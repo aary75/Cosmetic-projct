@@ -1,0 +1,2638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipstick</title>
+    <link rel="stylesheet" href="product-lipstick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87768d5180.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar">
+        <img src="/HTML/Project/logo.png" id="logo">
+        <div id="navbar-items">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Luxe</a>
+            <a href="">Contact Us</a>
+            <a href="http://127.0.0.1:5500/HTML/Project/demo_page.html">Glory Fashion</a>
+        </div>
+
+        <!-- <input type="search" placeholder="Search of Glory" id="search"> -->
+        <div class="search">
+          <input type="text" placeholder="Search" id="mysearch">
+          <div class="icon"></div>
+          <div class="input">
+              <!-- <input type="text" placeholder="Search" id="mysearch"> -->
+          </div>
+          <span class="clear" onclick="document.getElementById('mysearch').value = ''"></span>
+      </div>
+
+        <div><i class="fa-regular fa-user"></i></div>
+        <div id="signin">
+        <a href="">Login</a>/
+        <a href="">Register</a></div>
+    </div>
+
+    <div id="menu">
+        <a href="">Makeup</a>
+        <a href="">Skin</a>
+        <a href="">Hair</a>
+        <a href="">Appliances</a>
+        <a href="">Bath & Body</a>
+        <a href="">Natural</a>
+        <a href="">Mom & Baby</a>
+        <a href="">Health & Wellness</a>
+        <a href="">Men</a>
+        <a href="">Fragrance</a>
+        <a href="">Pop Ups</a>
+    </div>
+    <img src="/HTML/Project/offers.png" id="offers">
+
+    <img src="/HTML/Project/lipstick foreground image_cleanup (1).png" id="lipstick-foreground">
+    <p id="image-para1">Shine Starts <br>From here</p>
+    <p id="image-para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab<br> obcaecati enim 
+        consequuntur tempore debitis recusandae?</p>
+        <button type="submit" id="image-button">Get Started</button>
+        
+      <section id="fixed">
+    <section id="main">
+    <p id="demo" class="demo-heading" onclick="myFunction()">Sort By : Popularity     <i class="fa-solid fa-chevron-down"></i></p>
+    
+    <ul class="demo-list" id="demo1">
+        <li class="first-li">Popularity <input type="radio" name="li" checked="checked"></li>
+        <li>Discount   <input type="radio" name="li"></li>
+        <li>Name <input type="radio" name="li"></li>
+        <li>Customer Top Rated <input type="radio" name="li"></li>
+        <li>New Arrivals <input type="radio" name="li"></li>
+        <li>Price:High To Low <input type="radio" name="li"></li>
+        <li class="last-li">Price:Low to High <input type="radio" name="li"></li>
+    </ul>
+
+</section>
+
+   <section id="parts">
+      <div id="first-part">
+       <p id="demo-head1" class="demo-heading" onclick="myFunction1()">Brands   <i class="fa-solid fa-chevron-down"></i></p>
+
+       <ul class="demo-list" id="demo2">
+        <li class="first-li">M.A.C 44 <input type="checkbox" ></li>
+        <li>ASA 14 <input type="checkbox" ></li>
+        <li>Charlotte Tilbury 19 <input type="checkbox" ></li>
+        <li>Charlotte TIlbury Pro 13 <input type="checkbox" ></li>
+        <li>Bobbi Brown 12 <input type="checkbox" ></li>
+        <li>Huda Beauty 11 <input type="checkbox" ></li>
+        <li>Ctinique 8 <input type="checkbox" ></li>
+        <li>Nudestix 7 <input type="checkbox" ></li>
+        <li>Givenchy 7 <input type="checkbox" ></li>
+        <li>Estee Lauder 7 <input type="checkbox" ></li>
+        <li>DIOR 6 <input type="checkbox" ></li>
+        <li>Guertian 5 <input type="checkbox" ></li>
+        <li>Too Faced 4 <input type="checkbox" ></li>
+        <li>Elizabeth Arden 4 <input type="checkbox" ></li>
+        <li>TheBalm 4 <input type="checkbox" ></li>
+        <li>Natasha Moor 3 <input type="checkbox" ></li>
+       </ul></div>
+
+       <div id="second-part">
+        <p id="demo-head2" class="demo-heading" onclick="myFunction2()">Price   <i class="fa-solid fa-chevron-down"></i></p>
+
+        <ul class="demo-list" id="demo3">
+            <li>Rs. 500-Rs.999 10 <input type="checkbox"></li>
+            <li>Rs. 1000-Rs.1999 40 <input type="checkbox"></li>
+            <li>Rs. 2000-Rs.3999 113 <input type="checkbox"></li>
+            <li>Rs.4000 & Above 18 <input type="checkbox"></li>
+        </ul>
+       </div>
+
+       <div id="third-part">
+        <p id="demo-head3" class="demo-heading" onclick="myFunction3()">Discount   <i class="fa-solid fa-chevron-down"></i></p>
+        <ul class="demo-list" id="demo4">
+        <li>40% And Above 2 <input type="radio" name="fourth"></li>
+        <li>30% And Above 4 <input type="radio" name="fourth"></li>
+        <li>20% And Above 6 <input type="radio" name="fourth"></li>
+        <li>10% And Above 16 <input type="radio" name="fourth"></li>
+        <li>All Discounted Products 16 <input type="radio" name="fourth"></li></ul>
+       </div>
+
+       <div id="fifth-part">
+        <p id="demo-head4" class="demo-heading" onclick="myFunction4()">Color   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo5">
+            <li>Pink 115 <input type="checkbox" ></li>
+            <li>Brown 93 <input type="checkbox" ></li>
+            <li>Red 88 <input type="checkbox" ></li>
+            <li>Nude 74 <input type="checkbox" ></li>
+            <li>Orange 49 <input type="checkbox" ></li>
+            <li>Maroon 48 <input type="checkbox" ></li>
+            <li>Coral 42 <input type="checkbox" ></li>
+            <li>Purple 35 <input type="checkbox" ></li>
+            <li>MUlti-Color 25 <input type="checkbox" ></li>
+            <li>Peach 18 <input type="checkbox" ></li>
+            <li>Rust 12 <input type="checkbox" ></li>
+            <li>Black 8 <input type="checkbox" ></li>
+            <li>Blue 7 <input type="checkbox" ></li>
+            <li>Beige 5 <input type="checkbox" ></li>
+            <li>Gold 4 <input type="checkbox" ></li>
+        </ul>
+    </div>
+
+       <div id="sixth-part">
+        <p id="demo-head5" class="demo-heading" onclick="myFunction5()">Preference   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo6">
+          <li>Paraben Free 34  <input type="checkbox"> </li>
+          <li>Cruelty-Free 30  <input type="checkbox"> </li>
+          <li>Vitamin E 26  <input type="checkbox"> </li>
+          <li>Sulphate Free 26  <input type="checkbox"> </li>
+          <li>Vegan 23  <input type="checkbox"> </li>
+          <li>Pthalate-Free 17  <input type="checkbox"> </li>
+          <li>Hyaluronic Acid 16  <input type="checkbox"> </li>
+          <li>Vitamin A 14  <input type="checkbox"> </li>
+          <li>Natural 14  <input type="checkbox"> </li>
+          <li>Gluten Free 13  <input type="checkbox"> </li>
+          <li>AntiOxidants 10  <input type="checkbox"> </li>
+          <li>Fragrance-Free 9  <input type="checkbox"> </li>
+          <li>Oil-Free 6  <input type="checkbox"> </li>
+          <li>WaterProof 5  <input type="checkbox"> </li>
+          <li>VItamin C 4  <input type="checkbox"> </li>
+        </ul>
+    </div>
+
+       <div id="sixth-part">
+        <p id="demo-head6" class="demo-heading" onclick="myFunction6()">Finish   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo7">
+             <li>Matte 92 <input type="checkbox" ></li>
+             <li>Creme 46 <input type="checkbox" ></li>
+             <li>Satin 29 <input type="checkbox" ></li>
+             <li>Glossy 12 <input type="checkbox" ></li>
+             <li>Natural 4 <input type="checkbox" ></li>
+        </ul>
+    </div>
+
+       <div id="seventh-part">
+        <p id="demo-head7" class="demo-heading" onclick="myFunction7()">Formulation   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo8">
+            <li>Stick 139 <input type="checkbox"></li>
+            <li>Liquid 32 <input type="checkbox"></li>
+            <li>Pencil 17 <input type="checkbox"></li>
+            <li>Cream 15 <input type="checkbox"></li>
+            <li>Powder 1 <input type="checkbox"></li>
+            <li>Gel 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+
+       <div id="eighth-part">
+        <p id="demo-head8" class="demo-heading" onclick="myFunction8()">Coverage   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo9">
+            <li>Full Coverage 117 <input type="checkbox"> </li>
+            <li>Medium Coverage 42 <input type="checkbox"> </li>
+            <li>Low Coverage 5 <input type="checkbox"> </li>
+            <li>Sheer 2 <input type="checkbox"> </li>
+     
+        </ul>
+    </div>
+
+       <div id="ninth-part">
+        <p id="demo-head9" class="demo-heading" onclick="myFunction9()">Gender   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo10">
+          <li>Female 119 <input type="checkbox"></li>
+          <li>Unisex 11 <input type="checkbox"></li>
+        </ul>
+
+    </div>
+
+       <div id="tenth-part">
+        <p id="demo-head10" class="demo-heading" onclick="myFunction10()">Conscious   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo11">
+              <li>Clean 20 <input type="checkbox"></li>
+              <li>Vegan 18 <input type="checkbox"></li>
+              <li>Cruelty-Free 12 <input type="checkbox"></li>
+        </ul>
+    </div>
+
+       <div id="eleventh-part">
+        <p id="demo-head11" class="demo-heading" onclick="myFunction11()">Ingredient   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo12">
+            <li>Argan Oil 11 <input type="checkbox"></li>
+            <li>Shea Butter 11 <input type="checkbox"></li>
+            <li>Vitamin E 6 <input type="checkbox"></li>
+            <li>Vitamin A 5 <input type="checkbox"></li>
+            <li>Avacado 4 <input type="checkbox"></li>
+            <li>Coconut 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+       <div id="twelth-part">
+        <p id="demo-head12" class="demo-heading" onclick="myFunction12()">Concern   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo13">
+             <li>Chapped Lips 15 <input type="checkbox"></li>
+             <li>Dryness 4 <input type="checkbox"></li>
+             <li>Dullness 1 <input type="checkbox"></li>
+             <li>Anti Aging 1 <input type="checkbox"></li>
+             <li>Waterproof 1 <input type="checkbox"></li>
+        </ul>
+    </div>
+       <div id="thirteenth-part">
+        <p id="demo-head13" class="demo-heading" onclick="myFunction13()">Pack Size   <i class="fa-solid fa-chevron-down"></i></p>
+        
+        <ul class="demo-list" id="demo14">
+           <li>Single 17 <input type="checkbox"></li>
+           <li class="last-li">Pack 4 <input type="checkbox"></li>
+        </ul>
+    </div>
+   </section>
+   </section>
+
+  <section class="products" style="cursor:pointer;">
+    <div class="div-item1" class="item-section"  data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-1.png" class="image">  
+       <p class="first-para">SmashBox be Legndary Prime & Plush Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para1" id="icn1"><img src="/HTML/Project/shopping-cart (1).png" class="icon1" id="icn1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image1">
+      <button id="button1" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+      </div>
+
+    <div class="div-item2" class="item-section" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-2.png" class="image">
+       <p>asa Red Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para2" id="icn2"><img src="/HTML/Project/shopping-cart (1).png" class="icon1" ></div>
+       <i class="fa-regular fa-heart" id="fa-heart-2"></i>
+       <i class="fa-brands fa-pinterest-p" id="fa-pinterest-2"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>15 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image2">
+      <button id="button2" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';"
+      target="_blank">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item3" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-3.png" class="image">
+       <p>Two Faced Lady Bold Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para3"><img src="/HTML/Project/shopping-cart (1).png" id="icn3" class="icon1"></div>
+       <i class="fa-regular fa-heart" id="fa-heart-3"></i>
+       <i class="fa-brands fa-pinterest-p" id="fa-pinterest-3"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>10 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image3">
+      <button id="button3" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item4" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-4.png" class="image">
+       <p>Natasha Moor Silk Suede Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para4"><img src="/HTML/Project/shopping-cart (1).png" id="icn4" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>13 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image4">
+      <button id="button4" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item5" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-5.png" class="image">
+       <p>M.A.C. Metro Rappe Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para5"><img src="/HTML/Project/shopping-cart (1).png" id="icn5" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image5">
+      <button id="button5" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item6" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-6.png" class="image">
+       <p>M.A.C. Mattle Lipstick</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para6"><img src="/HTML/Project/shopping-cart (1).png" id="icn6" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image6">
+      <button id="button6" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+  
+    <img src="/Practise/pictures/lipstick-background-image.png" id="mid-image">
+    <div class="item-section div-item7" data-aos="zoom-in">
+       <img src="/Practise/pictures/lipstick-image-7.png" class="image">
+       <p>Charlotte Tilbury Hot Lips</p>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+
+       <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+       <div class="image-para7"><img src="/HTML/Project/shopping-cart (1).png" id="icn7" class="icon1"></div>
+       <i class="fa-regular fa-heart"></i>
+       <i class="fa-brands fa-pinterest-p"></i>
+
+       <p>
+        <span class="mrp">MRP:
+        &#8377;</span><span class="mrp">2200</span>
+        <span>&#8377;1700</span>
+        <span>15% Off</span></p>
+
+      <a>Enjoy Free Gift</a>
+      <p>32 Shades</p>
+      <img src="/HTML/Project/market.png" class="market" id="image7">
+      <button id="button7" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item8" data-aos="zoom-in">
+      <img src="/Practise/pictures/lipstick-image-8.png" class="image">
+      <p>Bobbi Brown Crushed Liquid Lip Color</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para8"><img src="/HTML/Project/shopping-cart (1).png" id="icn8" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image8">
+     <button id="button8" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item9" data-aos="zoom-in">
+      <img src="/Practise/pictures/lipstick-image-9.png" class="image">
+      <p>Estee Lauder Pure Color E</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para9"><img src="/HTML/Project/shopping-cart (1).png" id="icn9" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image9">
+     <button id="button9" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+    
+    <div class="item-section div-item10" data-aos="zoom-in">
+      <img src="/Practise/pictures/lipstick-image-10.png" class="image">
+      <p>Bobbi Red Luxe Shine Intense Lipstick</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para10"><img src="/HTML/Project/shopping-cart (1).png" id="icn10" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image10">
+     <button id="button10" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item11" data-aos="zoom-in">
+      <img src="/Practise/pictures/lipstick-image-11.png" class="image">
+      <p>Benefits Cosmetics GoGo Tint</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para11"><img src="/HTML/Project/shopping-cart (1).png" id="icn11" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image11">
+     <button id="button11" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+
+    <div class="item-section div-item12" data-aos="zoom-in">
+      <img src="/Practise/pictures/lipstick-image-12.png" class="image">
+      <p>Chinique Pop Lop Colour + Primer</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum</p> 
+      <div class="image-para12"><img src="/HTML/Project/shopping-cart (1).png" id="icn12" class="icon1"></div>
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+
+      <p>
+       <span class="mrp">MRP:
+       &#8377;</span><span class="mrp">2200</span>
+       <span>&#8377;1700</span>
+       <span>15% Off</span></p>
+
+     <a>Enjoy Free Gift</a>
+     <p>32 Shades</p>
+     <img src="/HTML/Project/market.png" class="market" id="image12">
+     <button id="button12" onclick="window.location.href='http://127.0.0.1:5500/Mini_projects/cart%20section/index.html';">Add to Bag</button>
+    </div>
+   </section>
+
+  <!-- <section id="button-section">
+    <button class="button1">Add to Bag</button>
+    <button id="button2">Add to Bag</button>
+    <button id="button3">Add to Bag</button>
+    <button id="button4">Add to Bag</button>
+    <button id="button5">Add to Bag</button>
+    <button id="button6">Add to Bag</button>
+    <button id="button7">Add to Bag</button>
+    <button id="button8">Add to Bag</button>
+    <button id="button9">Add to Bag</button>
+    <button id="button10">Add to Bag</button>
+    <button id="button11">Add to Bag</button>
+    <button id="button12">Add to Bag</button>
+  </section> -->
+
+
+  <section id="contact">
+    <div id="upper-part">
+      <div id="div1">
+      <i class="fa-regular fa-envelope" style="font-size:25px;position:relative;top:25px;"></i>
+        <p class="info" id="info1">Get Special discount of your inbox</p>
+        <input type="text" placeholder="Your Email" required>
+        <button>Send</button>
+    </div>
+  
+      <div id="div2">
+        <img src="/HTML/Project/mobile icon.png" id="phone">
+        <p class="info" id="info2">Experience the GLory on Mobile App</p>
+        <img src="/HTML/Project/play store.png" class="app-image">
+        <img src="/HTML/Project/app store.png" class="app-image">    
+      </div>
+  
+      <div id="div3">
+        <i class="fa-solid fa-phone" style="font-size:25px;position:relative;top:50px;"></i>
+        <p class="info" id="info3">For any help,You can call us at<br>
+        1800-500-4422</p><br>
+        <p class="info" id="info4">(Monday to Saturday,7am to 9pm and Sunday,8am to 10pm)</p>
+      </div>
+    </div>
+  
+    <div id="lower-part">
+      <div>
+        <h4>GLORY</h4>
+        <ul><li><a href="">About us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Authencity</a></li>
+        <li><a href="">Press</a></li>
+        <li><a href="">Testimonials</a></li>
+        <li><a href="">Glory CSR</a></li>
+        <li><a href="">Responsible Disclosure</a></li>
+        <li><a href="">Investor Relations</a></li></ul>
+      </div>
+  
+      <div id="list2">
+        <h4>Help</h4>
+        <ul><li><a href="">Contact Us</a></li>
+        <li><a href="">Frequently asked questions</a></li>
+        <li><a href="">Store Locator</a></li>
+        <li><a href="">Cancellation & Return</a></li>
+        <li><a href="">Shipping & Delivery</a></li>
+        <li><a href="">Sell on Glory</a></li></ul>
+      </div>
+  
+      <div id="list3">
+        <h4>Inspire Me</h4>
+        <ul>
+        <li><a href="">Beauty Book</a></li>
+        <li><a href="">Glory TV</a></li>
+        <li><a href="">Glory Network</a></li>
+        <li><a href="">Buying Guides</a></li></ul>
+      </div>
+  
+      <div id="list4">
+        <h4>Quick Lines</h4>
+        <ul>
+           <li><a href="">Offer Zone</a></li>
+           <li><a href="">New Launches</a></li>
+           <li><a href="">Glory Man</a></li>
+           <li><a href="">Glory Fashion</a></li>
+           <li><a href="">Glory Pro</a></li>
+        </ul>
+      </div>
+  
+      <div id="list5">
+        <h4>Top Categories</h4>
+        <ul>
+           <li><a href="">MakeUp</a></li>
+        <li><a href="">Skin</a></li>
+        <li><a href="">Hair</a></li>
+        <li><a href="">Bath & Body</a></li>
+        <li><a href="">Appliances</a></li>
+        <li><a href="">Mom and Baby</a></li>
+        <li><a href="">Wellness</a></li>
+        <li><a href="">Fragrance</a></li>
+        <li><a href="">Natural</a></li>
+        <li><a href="">Luxe</a></li></ul>
+      </div>
+    </div>
+  
+    <div id="social-media">
+         <div id="part1">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="Free Shipping">
+          <p>Free Shipping</p>   
+          <span>On orders above &#8377;299</span>    
+        </div>
+  
+         <div id="part2">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="Easy Returns">
+          <p>Easy Returns</p> 
+          <span>15 Day Return Policy</span>
+        </div>
+  
+         <div id="part3">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="brands count">
+          <p>100% Authencity</p> 
+          <span>Product Sourced Quality</span>
+        </div>
+  
+         <div id="para4">
+          <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="1900+ Brands">
+          <p>100+<br>Brands</p> 
+          <span>1 Lakh + Products</span>      
+        </div>
+  
+        <section id="connect">
+          <p>Show us some Love <i class="fa-solid fa-heart"></i> on social <span id="media">media</span></p>
+  
+          <section id="social-media-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </section>
+        </section>
+    </div>
+  
+    <section id="last">
+        <p>Terms & Conditions</p>
+        <p>Shipping Process</p>
+        <p>Cancellation Policy</p>
+        <p>Privacy Policy</p>
+    </section>
+    
+    <span id="copyright">&copy; Glory E-Retail Pvt Ltd.All Rights Reserved.</span>
+    
+    </section>
+
+    <button class="chatbot-toggler">
+      <i class="fa-regular fa-message"></i>
+      <i class="fa-solid fa-xmark"></i>
+  </button>
+  <div class="chatbot">
+      <header>
+          <!-- <h2>ChatBot</h2> -->
+          <i class="fa-solid fa-xmark close-btn"></i>
+      </header>
+
+      <ul class="chatbox">
+          <li class="chat incoming">
+              <!-- <span class="material-symbols-outlined">smart_toy</span> -->
+              <img class="material-symbols-outlined" src="/portfolio/chatbot.png" alt="">
+              <!-- <i class="fa-solid fa-headset"></i> -->
+              <p>Hi there 👋 <br> How can I help you today?</p>
+          </li>
+          <!-- <li class="chat outgoing">
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </li> -->
+      </ul>
+
+      <div class="chat-input">
+          <textarea placeholder="Enter a message..." required></textarea>
+          <!-- <span id="#send-btn" class="material-symbols-outlined">Send</span> -->
+          <img  id="#send-btn" class="material-symbols-outlined" src="/portfolio/send_button.png">
+      </div>
+  </div>
+
+    
+<script>
+   const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function(){
+            search.classList.toggle('active');
+        }
+
+    var display  = 0;
+function myFunction() {
+  if(display == 1){
+    document.getElementById("demo1").style.visibility = "visible";
+    document.getElementById("demo").style.borderBottomRightRadius = "0";
+    document.getElementById("demo").style.borderBottomLeftRadius = "0";
+    document.getElementById("parts").style.marginTop = "310px";
+    display = 0;
+  }
+  else{
+    document.getElementById("demo1").style.visibility = "hidden";
+    document.getElementById("demo").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo").style.borderBottomLeftRadius = "5px";
+    document.getElementById("parts").style.marginTop = "10px";
+    display = 1;
+  }
+}
+
+    var display1 = 0;
+  function myFunction1() {
+  if(display1 == 1){
+    document.getElementById("demo2").style.visibility = "visible";
+    document.getElementById("demo-head1").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head1").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo2").style.position = "relative";
+    display1 = 0;
+  }
+  else{
+    document.getElementById("demo2").style.visibility = "hidden";
+    document.getElementById("demo-head1").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head1").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo2").style.position = "absolute";
+    display1 = 1;
+  }
+}
+ 
+var display2 = 0;
+  function myFunction2() {
+  if(display2 == 1){
+    document.getElementById("demo3").style.visibility = "visible";
+    document.getElementById("demo-head2").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head2").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo3").style.position = "relative";
+    display2 = 0;
+  }
+  else{
+    document.getElementById("demo3").style.visibility = "hidden";
+    document.getElementById("demo-head2").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head2").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo3").style.position = "absolute";
+    display2 = 1;
+  }
+}
+
+var display3 = 0;
+  function myFunction3() {
+  if(display3 == 1){
+    document.getElementById("demo4").style.visibility = "visible";
+    document.getElementById("demo-head3").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head3").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo4").style.position = "relative";
+    display3 = 0;
+  }
+  else{
+    document.getElementById("demo4").style.visibility = "hidden";
+    document.getElementById("demo-head3").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head3").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo4").style.position = "absolute";
+    display3 = 1;
+  }
+}
+
+var display4 = 0;
+  function myFunction4() {
+  if(display4 == 1){
+    document.getElementById("demo5").style.visibility = "visible";
+    document.getElementById("demo-head4").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head4").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo5").style.position = "relative";
+    display4 = 0;
+  }
+  else{
+    document.getElementById("demo5").style.visibility = "hidden";
+    document.getElementById("demo-head4").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head4").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo5").style.position = "absolute";
+    display4 = 1;
+  }
+}
+
+var display5 = 0;
+  function myFunction5() {
+  if(display5 == 1){
+    document.getElementById("demo6").style.visibility = "visible";
+    document.getElementById("demo-head5").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head5").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo6").style.position = "relative";
+    display5 = 0;
+  }
+  else{
+    document.getElementById("demo6").style.visibility = "hidden";
+    document.getElementById("demo-head5").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head5").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo6").style.position = "absolute";
+    display5 = 1;
+  }
+}
+
+var display6 = 0;
+  function myFunction6() {
+  if(display6 == 1){
+    document.getElementById("demo7").style.visibility = "visible";
+    document.getElementById("demo-head6").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head6").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo7").style.position = "relative";
+    display6 = 0;
+  }
+  else{
+    document.getElementById("demo7").style.visibility = "hidden";
+    document.getElementById("demo-head6").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head6").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo7").style.position = "absolute";
+    display6 = 1;
+  }
+} 
+
+var display7 = 0;
+  function myFunction7() {
+  if(display7 == 1){
+    document.getElementById("demo8").style.visibility = "visible";
+    document.getElementById("demo-head7").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head7").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo8").style.position = "relative";
+    display7 = 0;
+  }
+  else{
+    document.getElementById("demo8").style.visibility = "hidden";
+    document.getElementById("demo-head7").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head7").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo8").style.position = "absolute";
+    display7 = 1;
+  }
+}
+
+var display8 = 0;
+  function myFunction8() {
+  if(display8 == 1){
+    document.getElementById("demo9").style.visibility = "visible";
+    document.getElementById("demo-head8").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head8").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo9").style.position = "relative";
+    display8 = 0;
+  }
+  else{
+    document.getElementById("demo9").style.visibility = "hidden";
+    document.getElementById("demo-head8").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head8").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo9").style.position = "absolute";
+    display8 = 1;
+  }
+}
+
+var display9 = 0;
+  function myFunction9() {
+  if(display9 == 1){
+    document.getElementById("demo10").style.visibility = "visible";
+    document.getElementById("demo-head9").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head9").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo10").style.position = "relative";
+    display9 = 0;
+  }
+  else{
+    document.getElementById("demo10").style.visibility = "hidden";
+    document.getElementById("demo-head9").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head9").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo10").style.position = "absolute";
+    display9 = 1;
+  }
+}
+
+var display10 = 0;
+  function myFunction10() {
+  if(display10 == 1){
+    document.getElementById("demo11").style.visibility = "visible";
+    document.getElementById("demo-head10").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head10").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo11").style.position = "relative";
+    display10 = 0;
+  }
+  else{
+    document.getElementById("demo11").style.visibility = "hidden";
+    document.getElementById("demo-head10").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head10").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo11").style.position = "absolute";
+    display10 = 1;
+  }
+}
+
+var display11 = 0;
+  function myFunction11() {
+  if(display11 == 1){
+    document.getElementById("demo12").style.visibility = "visible";
+    document.getElementById("demo-head11").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head11").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo12").style.position = "relative";
+    display11 = 0;
+  }
+  else{
+    document.getElementById("demo12").style.visibility = "hidden";
+    document.getElementById("demo-head11").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head11").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo12").style.position = "absolute";
+    display11 = 1;
+  }
+}
+
+var display12 = 0;
+  function myFunction12() {
+  if(display12 == 1){
+    document.getElementById("demo13").style.visibility = "visible";
+    document.getElementById("demo-head12").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head12").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo13").style.position = "relative";
+    display12 = 0;
+  }
+  else{
+    document.getElementById("demo13").style.visibility = "hidden";
+    document.getElementById("demo-head12").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head12").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo13").style.position = "absolute";
+    display12 = 1;
+  }
+}
+
+var display13 = 0;
+  function myFunction13() {
+  if(display13 == 1){
+    document.getElementById("demo14").style.visibility = "visible";
+    document.getElementById("demo-head13").style.borderBottomRightRadius = "0";
+    document.getElementById("demo-head13").style.borderBottomLeftRadius = "0";
+    document.getElementById("demo14").style.position = "relative";
+    display13 = 0;
+  }
+  else{
+    document.getElementById("demo14").style.visibility = "hidden";
+    document.getElementById("demo-head13").style.borderBottomRightRadius = "5px";
+    document.getElementById("demo-head13").style.borderBottomLeftRadius = "5px";
+    document.getElementById("demo14").style.position = "absolute";
+    display13 = 1;
+  }
+}
+// function myother(){
+//   document.getElementById("demo1").style.visibility='hidden';
+// }
+
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input img");
+const chatbox = document.querySelector(".chatbox");
+const chatbotToggler = document.querySelector(".chatbot-toggler");
+const chatbotCloseBtn = document.querySelector(".close-btn");
+
+let userMessage;
+const API_KEY = "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"; 
+const inputInitHeight = chatInput.scrollHeight;
+
+const createChatLi = (message,className) => {
+    // Create a chat <li> element with passed message and className
+   const chatLi = document.createElement("li");
+   chatLi.classList.add("chat",className);
+   let chatContent = className === "outgoing" ? `<p></p>` : `<img class="material-symbols-outlined" src="/portfolio/chatbot.png" alt=""><p></p>`;
+   chatLi.innerHTML = chatContent;
+   chatLi.querySelector("p").textContent = message;
+   return chatLi;
+}
+
+const generateResponse = (incomingChatLi) => {
+   const API_URL = "https://api.openai.com/v1/chat/completions";
+   const messageElement = incomingChatLi.querySelector("p");
+
+   const requestOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+        model: "gpt-3.5-turbo",
+        messages: [{role: "user", content: userMessage}]
+    })
+   }
+
+   // Send POST request to API, get response
+   fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+    messageElement.textContent = data.choices[0].message.content;
+   }).catch((error) => {
+    messageElement.classList.add("error");
+    messageElement.textContent = "Oops! Something went wrong. Please try again.";
+   }).finally(() => chatbox.scrollTo(0, chatbox.scrollHeight));
+}
+
+const handleChat = () => {
+   userMessage = chatInput.value.trim();
+   if(!userMessage) return;
+   chatInput.value = "";
+   chatInput.style.height = `${inputInitHeight}px`;
+
+   // Append the user message to the chatbox
+   chatbox.appendChild(createChatLi(userMessage,"outgoing"));
+   chatbox.scrollTo(0, chatbox.scrollHeight);
+
+   setTimeout(() => {
+    //Display "Thinking..." message while waiting for the response
+    const incomingChatLi = createChatLi("Thinking...","incoming")
+    chatbox.appendChild(incomingChatLi);
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+    generateResponse(incomingChatLi);
+   },600);
+}  
+
+chatInput.addEventListener("input", () => {
+    chatInput.style.height = `${inputInitHeight}px`;
+    chatInput.style.height = `${chatInput.scrollHeight}px`;
+});
+
+chatInput.addEventListener("keydown", (e) => {
+    // If Enter key is pressed without Shift key and the window 
+    // width is greater than 800px, handle the chat
+    if(e.key === "Enter" && !e.shiftKey && window.innerWidth > 800){
+        e.preventDefault();
+        handleChat();
+    }
+});
+
+sendChatBtn.addEventListener("click",handleChat);
+chatbotCloseBtn.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+
+<-- CSS section --> 
+
+
+body{
+    font-family:'Lato',sans-serif;
+    overflow-x:hidden;
+}
+
+/* navbar section */
+#logo{
+    position:absolute;
+    width:80px;
+    height:80px;
+    top:15px;
+    left:130px;
+}
+
+#navbar-items{
+    position:relative;
+    top:50px;
+    left:250px;
+}
+
+#navbar-items a{
+    padding:30px;
+    text-decoration:none;
+    color:black; 
+    font-weight:bold;
+    font-size:18px;  
+}
+
+#navbar-items a:hover{
+    color:rgb(232,0,113);
+}
+
+#search{
+    position:relative;
+    float:right;
+    top:20px;
+    right:220px;
+    height:40px;
+    width:225px;
+    border-radius:5px;
+    border:1px solid lightgrey;
+    background-color:rgba(211,211,211,0.4);
+}
+
+::placeholder{
+    font-weight:lighter;
+    font-size:15px;
+    padding-left:15px;
+}
+
+.fa-user{
+    position:absolute;
+    background-color:white;
+    border-radius:50%;
+    width:42px;
+    height:42px;
+    font-size:22px;
+    right:200px;
+    top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#signin{
+    position:relative;
+    float:right;
+    right:250px;
+}
+
+#signin a{
+    text-decoration:none;
+    color:black;
+}
+
+/* menu section */
+
+#menu{
+    width:100vw;
+    border-top:1px solid lightgrey;
+    position:relative;
+    right:10px;
+    top:30px;
+    display:flex;
+    z-index:2;
+    height:60px;
+    align-items:center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+#menu a{
+    position:relative;
+    left:120px;
+    color:rgb(172, 169, 169);
+    text-decoration:none;
+    padding-left:30px;
+}
+
+#offers{
+    position:relative;
+    float:right;
+    right:180px;
+    bottom:20px;
+}
+
+/* lipstick background and image section */
+#main{
+    position:absolute;
+    top:700px;
+    left:60px;
+}
+
+#lipstick-background{
+    height:350px;
+    width:100vw;
+    position:relative;
+    filter:blur(10px);
+}
+
+#lipstick-foreground{
+    position:absolute;
+    top:170px;
+    left:131px;
+    height:500px;
+    width:1300px;
+}
+
+#image-para1{
+    position:absolute;
+    font-size:55px;
+    font-weight:bold;
+    left:15em;
+    top:3em;
+}
+
+#image-para2{
+    position:absolute;
+    margin-top:50px;
+    color:rgb(172, 170, 170);
+    left:51.62em;
+    top:20em;
+    line-height:30px;
+}
+
+#image-button{
+    position:absolute;
+    background-color:rgb(26, 209, 222);
+    color:white;
+    padding:20px;
+    font-weight:bold;
+    font-size:15px;
+    border:0;
+    top:31em;
+    left:55.2em;
+    cursor:pointer;
+}
+
+.demo-heading{
+    background-color:rgb(222, 218, 218);
+    width:250px;
+    height:50px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    padding-left:20px;
+    border-radius:5px;
+    margin-bottom:-26px;
+    position:relative;
+}
+
+.fa-chevron-down{
+    position:absolute;
+    right:12px;
+    
+}
+
+.demo-list{
+   list-style-type:none;
+   position:absolute;
+   z-index:4;
+   visibility:hidden;
+   display:hidden;
+}
+
+.demo-list li{
+    padding-left:20px;
+    padding-right:58px;
+    padding-top:5px;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    background-color:rgb(222,218,218);
+    padding-bottom:20px;
+    width:192px;
+    border-collapse:collapse;
+}
+
+input[type='radio']{
+    transform:scale(1.6);
+    position:absolute;
+    right:10px;
+    accent-color:pink;
+    background:rgb(222,218,218);
+    outline:none;
+    border:3px solid white;
+}
+
+input[type='checkbox']{
+    transform:scale(1.6);
+    position:absolute;
+    right:10px;
+    accent-color:pink;
+    background:yellow;
+    outline:none;
+    border:3px solid white;
+}
+
+.first-li{
+    padding-top:10px;
+}
+.last-li{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#parts{
+    position:absolute;
+    top:760px;
+    left:60px;
+
+}
+
+#demo1{
+    position:absolute;
+    top:50px;
+    right:0.02em;
+    margin-bottom:-20px;
+}
+#demo2{
+    position:absolute;
+    top:20px;
+    margin-bottom:-10px;
+    margin-top:-10px;
+    right:2.5em;
+}
+
+#demo3{
+    position:absolute;
+    top:10px;
+    right:2.5em;
+    margin-bottom:-20px;
+}
+
+#demo4{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-9px;
+}
+
+#demo5{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo6{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo7{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo8{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo9{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo10{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo11{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo12{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo13{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+#demo14{
+    position:absolute;
+    right:2.5em;
+    top:10px;
+    margin-bottom:-10px;
+}
+
+/* images section */
+
+#images img{
+    background-color:pink;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+#image-1{
+    position:absolute;
+    background-color:pink;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+/* product section */
+
+.products{
+    position:relative;
+    top:582px;
+    left:400px;
+    display:grid;
+    grid-row-gap:30px;
+    grid-template-columns:350px 350px 350px;
+    grid-template-rows:repeat(3,1fr);
+    grid-column-gap:15px;
+    grid-auto-rows:20px;
+    grid-auto-columns:20px;
+}
+
+.products > div{
+    height:550px;
+    width:320px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.products .image{
+    position:relative;
+    left:16px;
+    top:17px;
+    border-radius:10px;
+    width:290px;
+    height:250px;
+}
+
+.products p:nth-child(2){
+    position:relative;
+    font-weight:bold;
+}
+
+.para{
+    position:relative;
+    width:180px;
+    bottom:20px;
+}
+
+.fa-star{
+    color:black;
+    position:relative;
+    bottom:15px;
+    font-size:13px;
+}
+
+.checked{
+    color:orange;
+}
+
+.image-para1{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    float:right;
+    position:absolute;
+    left:270px;
+    top:300px;
+    border-radius:50%;;
+}
+
+.image-para2{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:relative;
+    margin-left:70px;
+    bottom:110px;
+    border-radius:50%;
+    margin-bottom:-3px;
+}
+
+#fa-heart-2{
+    bottom:105px;
+}
+
+#fa-pinterest-2{
+    bottom:1500px;
+    top:-65px;
+    margin-bottom:-20px;
+}
+
+
+.image-para3{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:relative;
+    margin-left:270px;
+    bottom:110px;
+    border-radius:50%;
+    margin-bottom:-3px;
+}
+
+#fa-heart-3{
+    bottom:105px;
+}
+
+#fa-pinterest-3{
+    margin-bottom:-20px;
+    top:-65px;
+    bottom:1500px;
+}
+
+.image-para4{
+    background-color:rgba(232,0,117,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:235px;
+    border-radius:50%;
+}
+
+.image-para5{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:235px;
+    border-radius:50%;
+}
+
+.image-para6{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:235px;
+    border-radius:50%;
+}
+
+.image-para7{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:233px;
+    border-radius:50%;
+}
+
+.image-para8{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:231px;
+    border-radius:50%;
+}
+
+.image-para9{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    bottom:233px;
+    border-radius:50%;
+}
+
+.image-para10{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    top:284px;
+    border-radius:50%;
+}
+
+.image-para11{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    top:284px;
+    border-radius:50%;
+}
+
+.image-para12{
+    background-color:rgba(232,0,113,0.7);
+    width:35px;
+    height:35px;
+    position:absolute;
+    margin-left:270px;
+    top:284px;
+    border-radius:50%;
+}
+.icon1{
+    float:right;
+    position:relative;
+    width:20px;
+    right:8px;
+    height:20px;
+    padding-top:10px;
+}
+
+.products i{
+    width:35px;
+    height:35px;
+    font-size:15px;
+    color:white;
+    border-radius:50%;
+    float:right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    right:15px;
+    visibility:none;
+    bottom:90px;
+    background-color:rgba(232,0,113,0.7);
+}
+
+.fa-pinterest-p{
+    top:-52px;
+    left:20px;
+}
+
+.products p:nth-child(12){
+    font-size:15px;
+    position:relative;
+    left:15%;
+    bottom:5px;
+}
+
+.products p span:nth-child(2){
+    text-decoration:line-through;
+    text-decoration-color:black;
+}
+
+.products p span:nth-child(4){
+    color:green;
+    padding:10px;
+    bottom:5px;
+}
+
+.mrp{
+    color:lightgrey;
+}
+
+.products a{
+    color:rgb(232,0,113);
+    text-decoration:none;
+    position:relative;
+    font-size:15px;
+    bottom:-5px;
+    left:28%;
+    text-transform:uppercase;
+    cursor:normal;
+}
+
+.products p:nth-last-child(3){
+    color:lightgrey;
+    position:relative;
+    left:35%;
+    top:20px;
+}
+
+
+#button-section{
+    position:absolute;
+    display:grid;
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:repeat(3,1fr);
+    left:488px;
+    bottom:-2262px;
+    column-gap:125px;
+    row-gap:530px;
+
+}
+
+/* #button-section button{
+    width:240px;
+    height:50px;
+    font-size:18px;
+    background-color:rgb(232,0,113);
+    color:white;
+    border-width:0;
+    opacity:0;
+} */
+
+.div-item1 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item2 p:nth-child(12){
+    margin-bottom:-10px;
+    position:relative;
+    bottom:30px;
+}
+
+.div-item2 button{
+    position:absolute;
+    top:500px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item3 button{
+    position:absolute;
+    top:500px;
+    left:82px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item3 p:nth-child(12){
+    margin-bottom:-10px;
+    position:relative;
+    bottom:30px;
+}
+.div-item4 button{
+    position:absolute;
+    top:500px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item4 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item5 button{
+    position:absolute;
+    top:500px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item5 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item6 button{
+    position:absolute;
+    top:500px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item6 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item7 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item7 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item8 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item8 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item9 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item9 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item10 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item10 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item11 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item11 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item12 button{
+    position:absolute;
+    top:501px;
+    left:80px;
+   width:240px;
+   height:50px;
+   font-size:18px;
+   background-color:rgb(232,0,113);
+   color:white;
+   border-width:0px;
+   opacity:0;
+}
+
+.div-item12 p:nth-child(12){
+    margin-top:30px;
+}
+
+.div-item1:hover #button1{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item2:hover #button2{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item3:hover #button3{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item4:hover #button4{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item5:hover #button5{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item6:hover #button6{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item7:hover #button7{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item8:hover #button8{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item9:hover #button9{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item10:hover #button10{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item11:hover #button11{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.div-item12:hover #button12{
+    opacity:1;
+    border-bottom-right-radius:10px;
+}
+
+.image{
+    position:relative;
+    top:200px;
+    background-color:black;
+    width:50px;
+    height:2px;
+}
+
+.market{
+    position:absolute;
+    width:45px;
+    height:45px;
+    z-index:200;
+    float:bottom;
+    top:500px;
+    padding-left:20px;
+    padding-top:-1px;
+    border-bottom-left-radius:10px;
+    opacity:0;
+}
+
+#image4,#image5,#image6{
+    top:500px;
+    left:2px;
+}
+
+#image7{
+    top:500px;
+}
+
+#image8{
+    top:500px;
+}
+
+#image9{
+    top:500px;
+}
+
+#image10,#image11,#image12{
+    top:500px;
+}
+
+.div-item1:hover #image1{
+    opacity:1;
+}
+
+.div-item2:hover #image2{
+    opacity:1;
+}
+
+.div-item3:hover #image3{
+    opacity:1;
+}
+
+.div-item4:hover #image4{
+    opacity:1;
+}
+
+.div-item5:hover #image5{
+    opacity:1;
+}
+
+.div-item6:hover #image6{
+    opacity:1;
+}
+
+.div-item7:hover #image7{
+    opacity:1;
+}
+
+.div-item8:hover #image8{
+    opacity:1;
+}
+
+.div-item9:hover #image9{
+    opacity:1;
+}
+
+.div-item10:hover #image10{
+    opacity:1;
+}
+
+.div-item11:hover #image11{
+    opacity:1;
+}
+
+.div-item12:hover #image12{
+    opacity:1;
+}
+
+#icn2{
+    left:200px;
+}
+
+#mid-image{
+    position:relative;
+    width:1050px;
+    height:450px;
+}
+
+.div-item7{
+    position:relative;
+    top:500px;
+    right:370px;
+}
+
+.div-item8{
+    position:relative;
+    top:500px;
+    right:370px;
+}
+
+.div-item9{
+    position:relative;
+    bottom:80px;
+    left:740px;
+}
+.div-item10{
+    position:relative;
+    top:500px;
+}
+
+.div-item11{
+    position:relative;
+    top:500px;
+}
+
+.div-item12{
+    position:relative;
+    top:450px;
+}
+
+/* Contact section */
+
+#contact{
+    position:absolute;
+    height:200px;
+    width:100vw;
+    top:225em;
+}
+
+#upper-part{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgba(0,0,0,0.7);
+    height:150px;
+    color:white;
+    align-items:center;
+}
+
+.info{
+    font-size:15px;
+    font-family:'Lato',sans-serif;
+}
+
+#info1, #info2,#info3{
+    position:relative;
+    bottom:10px;
+    left:35px;
+}
+
+#div1 > input{
+    position:relative;
+    width:16em;
+    height:35px;
+    background:none;
+    color:white;
+    border-width:0;
+    border-bottom:1px solid white;
+    bottom:10px;
+}
+
+::placeholder{
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#div1 > button{
+    width:65px;
+    height:35px;
+    background:none;
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+    position:relative;
+    bottom:8px;
+}
+
+.app-image{
+    position:relative;
+    width:120px;
+    height:40px;
+    border:1px solid white;
+    border-radius:6px;
+    left:20px;
+}
+
+#phone{
+    position:relative;
+    left:7px;
+    top:25px;
+    width:14px;
+    height:25px;
+}
+#info2{
+    bottom:10px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#info3{
+    text-transform:uppercase;
+    font-size:13px;
+    position:relative;
+    top:10px;
+}
+#info4{
+    position:relative;
+    left:35px;
+    bottom:20px;
+}
+
+/* lower-part */
+#lower-part{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(140,141,148);
+    padding:60px;
+    color:white;
+    list-style-type:none;
+    font-family:'Lato',sans-serif;
+}
+
+#lower-part ul{
+    list-style-type:none;
+    margin-top:20px;
+    position:relative;
+    right:40px;
+}
+ 
+#lower-part ul li{
+    padding-bottom:10px;
+}
+
+#lower-part ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:13px;
+}
+
+#lower-part ul li a:hover{
+    color:rgb(230, 116, 248);
+    transition:all 500ms ease;
+}
+
+#social-media{
+    display:flex;
+    justify-content:space-around;
+    margin:90px;
+}
+
+#social-media div{
+    font-family:'Lato',sans-serif;
+    width:95px;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+#social-media div p{
+    position:relative;
+    left:55px;
+    bottom:60px;
+    border-bottom:1px solid lightgrey;
+}
+
+#social-media div span{
+    text-transform:none;
+    width:1000px;
+    font-size:12px;
+    color:rgb(199, 182, 182);
+    position:relative;
+    left:50px;
+    bottom:60px;
+}
+#connect{
+    width:15em;
+}
+
+#media{
+    position:relative;
+    left:80px;
+}
+
+#social-media-icons{
+    display:flex;
+    margin-top:10px;
+    justify-content:space-around;
+}
+
+#social-media-icons i{
+    font-size:20px;
+}
+
+/*last */
+#last{
+    background-color:rgb(232,0,113);
+    height:100px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    font-family:'Lato',sans-serif;
+    font-size:13px;
+    bottom:50px;
+    color:white;
+}
+
+#last p{
+    padding:20px;
+    position:relative;
+    bottom:10px;
+
+}
+
+#copyright{
+    position:relative;
+    bottom:90px;
+    left:48em;;
+    font-size:13px;
+    color:white;
+    font-family:'Lato',sans-serif;
+}
+
+
+/* search button  */
+.search{
+    position:relative;
+    width: 35px;
+    height:35px;
+    background:#fff;
+    border-radius:60px;
+    transition:0.5s;
+    box-shadow: 0 0 0 2px #2573ef;
+    overflow: hidden;
+    left:1325px;
+    top:25px;
+}
+
+.search.active{
+    width:360px;
+}
+
+.search .icon{
+    position:relative;
+    top:10px;
+    left:10px;
+    width:20px;
+    height:20px;
+    background:#fff;
+    border-radius:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+    cursor:pointer;
+}
+
+.search .icon::before{
+    content: '';
+    position:absolute;
+    width:15px;
+    height:15px;
+    border:3px solid #287dfc;
+    border-radius:50%;
+    transform:translate(-4px,-4px);
+}
+
+.search .icon::after{
+    content:'';
+    position:absolute;
+    width:3px;
+    height:12px;
+    background:#287dfc;
+    transform:translate(6px,6px) rotate(315deg);
+}
+
+.search .input{
+    position:relative;
+    width:300px;
+    height:60px;
+    left:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background:black; */
+    z-index:2000;
+}
+
+input{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    left:60px;
+    border: none;
+    outline: none;
+    font-size:18px;
+    padding:10px 0;
+}
+
+.clear{
+   position:absolute;
+   top:50%;
+   transform: translateY(-50%);
+   width:15px;
+   height:15px;
+   right:15px;
+   cursor:pointer;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+.clear::before{
+    position:absolute;
+    content:'';
+    width:1px;
+    height:15px;
+    background:#999;
+    transform:rotate(45deg);
+}
+
+.clear::after{
+    position:absolute;
+    content:'';
+    width:1px;
+    height:15px;
+    background:#999;
+    transform:rotate(315deg);
+}
+
+.chatbot-toggler{
+    /* position:fixed; */
+    position:relative;
+    top:2640px;
+    float:right;
+    right:20px;
+    height:50px;
+    width:50px;
+    color:#fff;
+    border:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    outline:none;
+    background:#724ae8;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.show-chatbot .chatbot-toggler{
+    transform: rotate(90deg);
+}
+.chatbot-toggler i {
+    position:absolute;
+    font-size:22px;
+}
+
+.show-chatbot .chatbot-toggler i:first-child,
+.chatbot-toggler i:last-child{
+    opacity:0;
+}
+
+.show-chatbot .chatbot-toggler i:last-child{
+    opacity:1;
+}
+
+.chatbot{
+    /* position:fixed; */
+    position:relative;
+    top:2060px;
+    float:right;
+    right:20px;
+    max-height:600px;
+    width:420px;
+    transform:scale(0.5);
+    opacity:0;
+    pointer-events:none;
+    overflow: hidden;
+    background:#fff;
+    transform-origin: bottom right;
+    border-radius:15px;
+    box-shadow:0 0 128px 0 rgba(0,0,0,0.1),
+               0 32px 64px -48px rgba(0,0,0,0.5);
+    transition: all 0.1s ease;
+            
+}
+
+.show-chatbot .chatbot{
+    transform:scale(1);
+    opacity:1;
+    pointer-events:auto;
+}
+.chatbot header{
+    background:#724ae8;
+    padding:16px 0;
+    text-align:center;
+    position:relative;
+}
+
+.chatbot header h2{
+    color:#fff;
+    font-size:1.4rem;
+}
+
+.chatbot header i{
+    position:absolute;
+    right:20px;
+    top:50%;
+    color:#fff;
+    cursor:pointer;
+    display:none;
+    transform: translateY(-50%);
+}
+
+.chatbot .chatbox{
+    height: 510px;
+    overflow-y: auto;
+    padding:30px 20px 100px;
+}
+
+.chatbox .chat{
+    display:flex;
+}
+
+.chatbox .incoming img{
+    width:28px;
+    height:28px;
+    color:#fff;
+    align-self:flex-end;
+    background:#724ae8;
+    text-align:center;
+    line-height:32px;
+    border-radius:4px;
+    margin:0 10px 7px 0;
+    padding:2px;
+}
+
+.chatbox .outgoing{
+    margin: 20px 0;
+    justify-content: flex-end;
+}
+.chatbox .chat p{
+    color:#fff;
+    max-width:75%;
+    white-space:pre-wrap;
+    font-size:0.95rem;
+    padding: 12px 16px;
+    border-radius:10px 10px 0 10px;
+    background:#724ae8;
+}
+
+.chatbotx .chat p.error{
+    color: #721c24;
+    background: #f8d7da;
+}
+.chatbox .incoming p{
+    color:#000;
+    background:#f2f2f2;
+    border-radius:10px 10px 10px 0;
+}
+
+.chatbot .chat-input {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display:flex;
+    gap: 5px;
+    background:#fff;
+    padding:5px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input textarea{
+    height: 50px;
+    width:100%;
+    border:none;
+    outline:none;
+    max-height: 30px;
+    font-size:0.95rem;
+    resize: none;
+    padding:16px 15px 16px 0;
+}
+
+.chat-input img{
+    align-self: flex-end;
+    height: 30px;
+    position:relative;
+    right:25px;
+    line-height: 30px;
+    margin-bottom:15px;
+    color: #724ae8;
+    font-size: 1.35rem;
+    cursor:pointer;
+    visibility:hidden;
+}
+
+.chat-input textarea:valid ~ img{
+    visibility: visible;
+}
+
+@media(max-width: 490px){
+    .chatbot{
+        right:0;
+        bottom:0;
+        width:100%;
+        height:100%;
+        border-radius:0;
+    }
+
+    .chatbot .chatbox{
+        height:90%;
+    }
+
+    .chatbot header i{
+        display:block;
+    }
+}
