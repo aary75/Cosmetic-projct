@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link rel="stylesheet" href="about_page.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87768d5180.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- <header class="header">
+        <span id="logo">GLORY</span>
+        <span>Home</span>
+        <span>Services</span>
+        <span>Specials</span>
+        <span>Book Online</span>
+        <span>Contacts</span>
+    </header> -->
+    <img src="/HTML/Project/logo.png" id="logo">
+    <div id="navbar">
+        <span id="home">Home</span>
+        <span>About Us</span>
+        <span>Luxe</span>
+        <span>Contact Us</span>
+    </div>
+
+    <div id="search-section">
+        <input type="search" placeholder="Search on Glory" class="search-field"/>
+        <button type="submit" class="search-button">
+
+        </button> 
+    </div>
+     
+    <div id="login">
+    <a href=""><span id="log">Login/</span></a>
+   <a href=""><span id="register">Register</span></a>
+   </div>
+    <div><i class="fa-regular fa-user"></i></div>
+
+    <main>
+        <div id ="about">
+            <p class="heading">About Us</p>
+             
+            <div id="main-part-1">
+            <img src="/HTML/Project/frame-transformed.png" id="frame">
+            <div id="para">
+            <p>Welcome to Glory, where beauty meets innovation. 
+                We are passionate about helping you discover your unique radiance through
+                our exquisite range of cosmetic products. With a dedication to quality, 
+                creativity, and customer satisfaction, we have become a trusted name in 
+                the world of beauty.<br><br>
+
+                At Glory, we believe that beauty is an art form,
+                and our products are designed to be your canvas. Our team of skilled 
+                makeup artists, dermatologists, and beauty enthusiasts work tirelessly
+                to bring you a collection that embraces diversity and empowers you to 
+                express your individuality.
+<br><br>
+                From stunning lip shades that captivate to skincare that rejuvenates, 
+                we offer a comprehensive range of products that cater to your every 
+                beauty need. Whether you're a makeup maven or just starting your beauty
+                journey, [Your Cosmetic Company Name] is here to inspire and uplift you.
+<br><br>
+                Thank you for choosing Glory as your beauty partner. We look forward to 
+                helping you unleash your inner beauty and confidence.
+           </p>
+            </div>
+        </div>
+</div>
+     <div id="team">
+           <p class="heading" id ="team-heading">Our Team</p>
+           <div class="members" id="member1" data-aos="fade-right" data-aos-ease="linear"
+           data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg">      
+                <p>Founder</p>
+                <p>
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+
+           <div class="members" id="member2" data-aos="fade-down"
+             data-aos-ease="linear" data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg">
+                <p>CEO</p>
+                <p>
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+
+           <div class="members" id="member3" data-aos="fade-left" data-aos-ease="linear"
+           data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg">
+                <p>Group Leader</p>
+                <p>
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+
+           <div class="members" id="member4" data-aos="fade-right" data-aos-ease="linear"
+           data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg">
+                <p>Frontend Developer</p>
+                <p>
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+
+           <div class="members" id="member5" data-aos="fade-up" data-aos-ease="linear"
+           data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg"> 
+                <p>Backened Developer</p>
+                <p>
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+
+           <div class="members" id="member6" data-aos="fade-left" data-aos-ease="linear"
+           data-aos-duration="1500">
+                <img src="/HTML/Project/love babbar.jpg">
+                <p>Backened Developer</p>
+                <p >
+                    Lrem ipsum dolor sit amet consectetur, adipisicing elit. Illum 
+                    assumenda dicta voluptatibus, dolores magni ab beatae deserunt 
+                    pariatur. Numquam consequatur, ex eius iusto molestias assumenda quae
+                     expedita officiis ratione molestiae.
+                </p>
+          </div>
+     </div>
+    </main>
+    
+    <section id="contact">
+        <div id="upper-part">
+          <div id="div1">
+          <i class="fa-regular fa-envelope" style="font-size:25px;"></i>
+            <p class="info" id="info1">Get Special discount of your inbox</p>
+            <input type="text" placeholder="Your Email" required>
+            <button>Send</button>
+        </div>
+      
+          <div id="div2">
+            <img src="/HTML/Project/mobile icon.png" id="phone">
+            <p class="info" id="info2">Experience the Glory on Mobile App</p>
+            <img src="/HTML/Project/play store.png" class="app-image">
+            <img src="/HTML/Project/app store.png" class="app-image">    
+          </div>
+      
+          <div id="div3">
+            <i class="fa-solid fa-phone" style="font-size:25px;position:relative;top:10px;"></i>
+            <p class="info" id="info3">For any help,You can call us at<br>
+            <span>1800-500-4422</span></p><br>
+            <p class="info" id="info4">(Monday to Saturday,7am to 9pm and Sunday,8am to 10pm)</p>
+          </div>
+        </div>
+      
+        <div id="lower-part">
+          <div>
+            <h4>GLORY</h4>
+            <ul><li><a href="">About us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Authencity</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Glory CSR</a></li>
+            <li><a href="">Responsible Disclosure</a></li>
+            <li><a href="">Investor Relations</a></li></ul>
+          </div>
+      
+          <div id="list2">
+            <h4>Help</h4>
+            <ul><li><a href="">Contact Us</a></li>
+            <li><a href="">Frequently asked questions</a></li>
+            <li><a href="">Store Locator</a></li>
+            <li><a href="">Cancellation & Return</a></li>
+            <li><a href="">Shipping & Delivery</a></li>
+            <li><a href="">Sell on Glory</a></li></ul>
+          </div>
+      
+          <div id="list3">
+            <h4>Inspire Me</h4>
+            <ul>
+            <li><a href="">Beauty Book</a></li>
+            <li><a href="">Glory TV</a></li>
+            <li><a href="">Glory Network</a></li>
+            <li><a href="">Buying Guides</a></li></ul>
+          </div>
+      
+          <div id="list4">
+            <h4>Quick Lines</h4>
+            <ul>
+               <li><a href="">Offer Zone</a></li>
+               <li><a href="">New Launches</a></li>
+               <li><a href="">Glory Man</a></li>
+               <li><a href="">Glory Fashion</a></li>
+               <li><a href="">Glory Pro</a></li>
+            </ul>
+          </div>
+      
+          <div id="list5">
+            <h4>Top Categories</h4>
+            <ul>
+               <li><a href="">MakeUp</a></li>
+            <li><a href="">Skin</a></li>
+            <li><a href="">Hair</a></li>
+            <li><a href="">Bath & Body</a></li>
+            <li><a href="">Appliances</a></li>
+            <li><a href="">Mom and Baby</a></li>
+            <li><a href="">Wellness</a></li>
+            <li><a href="">Fragrance</a></li>
+            <li><a href="">Natural</a></li>
+            <li><a href="">Luxe</a></li></ul>
+          </div>
+        </div>
+      
+        <div id="social-media">
+             <div id="part1">
+              <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="Free Shipping">
+              <p>Free Shipping</p>
+              <span>On orders above &#8377;299</span>          
+            </div>
+      
+             <div id="part2">
+              <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="Easy Returns">
+              <p>Easy Returns</p> 
+              <span>15 Day Return Policy</span>
+            </div>
+      
+             <div id="part3">
+              <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="brands count">
+              <p>100% Authencity</p> 
+              <span>Product Sourced Quality</span>
+            </div>
+      
+             <div id="para4">
+              <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="1900+ Brands">
+              <p>100+<br>Brands</p>     
+              <span>1 Lakh + Products</span>        
+            </div>
+      
+            <section id="connect">
+              <p>Show us some Love <i class="fa-solid fa-heart"></i> on social <span id="media">media</span></p>
+      
+              <section id="social-media-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </section>
+            </section>
+        </div>
+      
+        <section id="last">
+            <p>Terms & Conditions</p>
+            <p>Shipping Process</p>
+            <p>Cancellation Policy</p>
+            <p>Privacy Policy</p>
+        </section>
+        
+        <span id="copyright">&copy; Glory E-Retail Pvt Ltd.All Rights Reserved.</span>
+        
+        </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
+
+
+<-- CSS Section --> 
+
+/* Navbar */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#logo{
+    display:inline-block;
+    position:absolute;
+    width:80px;
+    height:80px;
+    left:90px;
+    top:10px;
+}
+
+#navbar{
+    position:absolute;
+    left:250px;
+    top:49px;
+}
+#home{
+    width:40px;
+    height:30px;
+}
+#navbar span{
+    font-size:18px;
+    padding:40px;
+    font-family:'Lato',sans-serif;
+    font-weight:bold;
+}
+
+#navbar span:hover{
+    color:red;
+    cursor:pointer;
+}
+
+.fa-user{
+  position:absolute;
+  right:40px;
+  top:50px;
+  background-color:black;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  font-size:22px;
+  z-index:5;
+  display:flex;
+  align-items:center;  
+  justify-content:center;
+  color:white;
+}
+
+#login{
+    position:absolute;
+    right:105px;
+    z-index:5;
+    top:60px;
+    font-family:'Lato',sans-serif;
+    
+}
+
+#login a{
+    text-decoration:none;
+    color:black;
+}
+#button{
+    position:relative;
+    bottom:460px;
+    right:290px;
+    padding:5px;
+    width:120px;
+    height:40px;
+    background-color:rgba(64,127,64,0.7);
+    color:white;
+    font-size:17px;
+    border:0;
+    font-family: Lato;
+}
+
+#button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.search-field{
+    position:absolute;
+    width:240px;
+    height:40px;
+    right:18em;
+    top:55px;
+    border:0.5px solid lightgrey;;
+    border-radius:5px;
+    padding:10px 35px 10px 15px;
+    outline:none;
+    z-index:1;
+    background-color:rgba(150, 147, 147, 0.09);
+}
+
+.search-button{
+    background-color:white;
+    border:none;
+    outline:none;
+    position:absolute;
+    right:18.6em;
+    top:23px;
+    font-size:22px;
+    color:black;
+    z-index:2;
+}
+
+.search-button i{
+    width:20px;
+    height:20px;
+    object-fit:cover;
+}
+/* Main Section */
+
+#about{
+    background-color:rgba(77, 78, 77, 0.078);
+    width:100%;
+    text-align:center;
+    margin-top:150px;
+    color:black;
+    padding-top:50px;
+    padding-bottom:60px;
+}
+
+.heading{
+    font-weight:bold;
+    font-size:30px;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+}
+
+#frame{
+    position:relative;
+    top:50px;
+    right:22em;
+
+}
+
+#main-part-1{
+    background-color:rgba(252, 254, 254,1);
+    height:48em;
+    margin-top:40px;
+    margin-left:40px;
+    margin-right:40px;
+}
+#para{
+    background-color:rgba(236, 236, 244,1);
+    position:relative;
+    bottom:38em;
+    left:53em;
+    width:30em;
+    height:40.8em;
+    max-width:30em;
+}
+
+#para > p{
+    top:50px;
+}
+p{
+    font-size:20px;
+    position:relative;
+    text-align:center;
+}
+
+/* team section */
+
+#team{
+    margin-top:10px;
+}
+
+.members{
+    width:24em;
+    height:26em;
+    background-color:aqua;
+    border-bottom: 5px solid black;
+    border-radius: 8px;
+    position:relative;
+    margin-top:50px;
+    /* box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1); */
+}
+
+.members:hover{
+    height:26.4em;
+    width:24.4em;
+    transition-duration:.3s;
+}
+.members > img{
+    width: 140px;
+    height:140px;
+    border-radius:50%;
+    position:relative;
+    left:28%;
+    top:40px;
+}
+
+#member1{
+    position:relative;
+    left:9em;
+    bottom:0.3em;
+}
+
+#member2{
+    position:absolute;
+    left:35.6em;
+    bottom:-55.8em;
+}
+
+#member3{
+    position:absolute;
+    bottom:-55.8em;
+    right:8.5em;
+}
+
+#member4{
+    position:absolute;
+    left:9em;
+}
+
+#member5{
+    position:absolute;
+    left:35.6em;
+}
+
+#member6{
+    position:absolute;
+    right:8.5em;
+}
+
+.members > p{
+    top:50px;
+    right:2px;
+    font-family: 'Bree Serif', sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+/* contanct-section */
+#contact{
+    position:relative;
+    height:200px;
+    top:37em;
+}
+
+#upper-part{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgba(0,0,0,0.7);
+    height:150px;
+    color:white;
+    align-items:center;
+}
+
+.info{
+    font-size:15px;
+    font-family:'Lato',sans-serif;
+}
+
+#info1, #info2,#info3{
+    position:relative;
+    bottom:20px;
+    left:35px;
+}
+
+#info1{
+    left:10px;
+}
+
+#info3 span{
+    padding-right:140px;
+}
+#info3{
+    top:-15px;
+    position:relative;
+    padding-right:180px;
+}
+#div1 > input{
+    width:16em;
+    height:35px;
+    background:none;
+    color:white;
+    border-width:0;
+    border-bottom:1px solid white;
+}
+
+::placeholder{
+    color:grey;
+    font-size:15px;
+}
+
+#div1 > button{
+    width:65px;
+    height:35px;
+    background:none;
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.app-image{
+    position:relative;
+    width:120px;
+    height:40px;
+    border:1px solid white;
+    border-radius:6px;
+    left:20px;
+}
+
+#phone{
+    position:relative;
+    left:7px;
+    top:5px;
+    width:14px;
+    height:25px;
+}
+#info2{
+    bottom:17px;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#info3{
+    text-transform:uppercase;
+    font-size:13px;
+}
+#info4{
+    position:relative;
+    left:35px;
+    bottom:20px;
+}
+
+/* lower-part */
+#lower-part{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(140,141,148);
+    padding:60px;
+    color:white;
+    list-style-type:none;
+    font-family:'Lato',sans-serif;
+}
+
+#lower-part ul{
+    list-style-type:none;
+    margin-top:20px;
+}
+ 
+#lower-part ul li{
+    padding-bottom:10px;
+}
+
+#lower-part ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:13px;
+}
+
+#lower-part ul li a:hover{
+    color:rgb(230, 116, 248);
+    transition:all 500ms ease;
+}
+
+#social-media{
+    display:flex;
+    justify-content:space-around;
+    margin:90px;
+}
+
+#social-media div{
+    font-family:'Lato',sans-serif;
+    width:95px;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+#social-media div p{
+    position:relative;
+    padding-right:55px;
+    left:55px;
+    font-size:15px;
+    bottom:50px;
+    border-bottom:2px solid lightgrey;
+}
+
+#social-media div span{
+    text-transform:none;
+    width:1000px;
+    font-size:12px;
+    color:rgb(199, 182, 182);
+    position:relative;
+    left:50px;
+    bottom:40px;
+}
+
+#connect{
+    width:14em;
+}
+
+#connect p{
+    font-size:15px;
+}
+#media{
+    position:relative;
+}
+
+#social-media-icons{
+    display:flex;
+    margin-top:10px;
+    justify-content:space-around;
+}
+
+#social-media-icons i{
+    font-size:20px;
+}
+
+/*last */
+#last{
+    background-color:rgb(232,0,113);
+    height:100px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    font-family:'Lato',sans-serif;
+    bottom:40px;
+    color:white;
+}
+
+#last p{
+    padding:20px;
+    font-size:13px;
+}
+
+#copyright{
+    position:relative;
+    bottom:80px;
+    left:48em;;
+    font-size:13px;
+    color:white;
+    font-family:'Lato',sans-serif;
+}
